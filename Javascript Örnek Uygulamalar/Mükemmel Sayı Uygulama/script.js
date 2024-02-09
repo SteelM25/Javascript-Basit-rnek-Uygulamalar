@@ -33,3 +33,5 @@ function mukBul(MaxSayi){
 
 mukBul(girilenSayi);
 
+//github desktop deneme
+
