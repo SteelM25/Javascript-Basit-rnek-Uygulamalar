@@ -15,12 +15,12 @@ function mukBul(MaxSayi){
 
     let mukemmeller = [];
     
-    for (let i = 2; i <= MaxSayi; i++) {
+    for (let i = 2; i <= MaxSayi; i++) { //? Burada i, bölenleri bulunacak olan sayıyı temsil ediyor.
         let toplam = 0;
-        for(let b=1; b <= i; b++) {
+        for(let b=1; b <= i; b++) { //? b, i içinde dolaşıp böleni olup olmadığını buluyor.
     
-            if(i%b==0){ //* sağıyorsa demek ki sayının bölenidir
-                toplam+=b;
+            if(i%b==0){ //* sağıyorsa demek ki b sayının bölenidir
+                toplam+=b; //? bölenler toplamı toplam değişkeninde tutuluyor
                 if(toplam==(i*2)){
                     mukemmeller.push(i);
                 }
