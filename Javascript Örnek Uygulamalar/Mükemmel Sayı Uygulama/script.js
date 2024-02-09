@@ -32,3 +32,4 @@ function mukBul(MaxSayi){
 }
 
 mukBul(girilenSayi);
+
