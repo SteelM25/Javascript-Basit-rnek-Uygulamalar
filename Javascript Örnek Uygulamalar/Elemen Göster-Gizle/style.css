@@ -1,0 +1,57 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(7, 18, 27);
+    color: white;
+}
+.container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+}
+
+.buttons,button{
+    margin-top: 30px;
+    padding: 10px;
+}
+.buttons{
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+}
+
+.blue{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: blue;
+    margin: 5px;
+}
+.red{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.daireler{
+    height: 150px;
+    margin-top: 10px;
+}
+
+.gizle{
+    display: none;
+}
+.goster{
+    display: block;
+}

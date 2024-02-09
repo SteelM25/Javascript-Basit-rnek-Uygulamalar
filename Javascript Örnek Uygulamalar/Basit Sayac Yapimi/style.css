@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+h2{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#degeri_al{
+    height: 20px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 3px;
+}
+
+.button-group button{
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(145, 190, 229);
+}
+button:hover{
+    background-color: rgb(74, 142, 202);
+    cursor: pointer;
+}
+
+.kutu{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    margin: 10px;
+    border-radius: 50%;
+}
+.deger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    font-size: 25px;
+
+}
+
+.durum{
+    margin-top: 10px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    display: none;
+}
+
+.gorun{display: block;}
