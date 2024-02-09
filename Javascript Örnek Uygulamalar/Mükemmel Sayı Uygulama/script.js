@@ -23,7 +23,7 @@ function mukBul(MaxSayi){
                 toplam+=b; //? bölenler toplamı toplam değişkeninde tutuluyor
                 if(toplam==(i*2)){
                     mukemmeller.push(i);
-                }
+                }  
             }
         }
     }  
