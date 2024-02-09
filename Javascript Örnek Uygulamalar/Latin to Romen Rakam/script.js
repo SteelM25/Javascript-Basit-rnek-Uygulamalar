@@ -3,7 +3,9 @@
     ! Ancak en fazla 3 tane aynı rakam yan yana gelebilir. 
     Örneğin 4 sayısını IIII şeklinde yazamayız. 
     ! 4 sayısını yazmak için bir tane 5 ve soluna 1 yazarız. Yani IV. 
-    ?Buradan da anlaşılabileceği gibi eğer küçük olan rakam büyük rakamın solundaysa büyük rakamdan çıkarılır. 6 sayısı VI, 7 sayısı VII, 8 sayısı VIII şeklinde yazılır. 
+    ?Buradan da anlaşılabileceği gibi eğer küçük olan rakam büyük rakamın solundaysa büyük rakamdan çıkarılır. Örneğin VI, IX gibi.
+    
+    ?6 sayısı VI, 7 sayısı VII, 8 sayısı VIII şeklinde yazılır. 
     !Buna göre de eğer küçük rakam büyük rakamın sağındaysa büyük rakamla toplanır.
 
     1948: MCMIIL
