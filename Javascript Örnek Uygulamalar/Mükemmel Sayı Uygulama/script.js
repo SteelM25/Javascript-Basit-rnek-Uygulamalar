@@ -25,7 +25,7 @@ function mukBul(MaxSayi){
                     mukemmeller.push(i);
                 }  
             }
-        }
+        } 
     }  
      
     alert("Girdiğiniz sayıya kadar olan mükemmel sayılar: "+mukemmeller.join(" , "));
