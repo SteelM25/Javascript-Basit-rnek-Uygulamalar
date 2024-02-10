@@ -24,23 +24,22 @@ function decimaltoBinary(sayi) {
 
   let binary = [];
 
-  let deger = Math.abs(sayi);
-
+  let deger = Math.abs(sayi);//aldığım sayının mutlak değerini alarak işleme devam edeceğim. Çünkü floor ile aşağı yuvarlama işlemleri yapacağım için negatif sayılarda sorun olur.
   
 
-  while ((Math.floor(deger / 2)) > 1) {
-    binary.unshift((Math.floor(deger % 2)));
-    deger = (Math.floor(deger / 2));
+  while ((Math.floor(deger / 2)) > 1) { //2'ye bölünebildiği sürece döngü döner
+    binary.unshift((Math.floor(deger % 2))); // her bulduğum kalanı başa ekleyerek sonradan eklediğimin her sayının en başta olmasını sağlıyorum.
+    deger = (Math.floor(deger / 2));//bölme işlemi sayının bölüm kısmından devam etsin.
   }
-  if ((Math.floor(deger / 2)) == 1) {
-    binary.unshift((Math.floor(deger % 2)));
-    binary.unshift((Math.floor(deger / 2)));
+  if ((Math.floor(deger / 2)) == 1) { //son 2'ye bölme işlemi
+    binary.unshift((Math.floor(deger % 2)));//son kalan başa eklenir
+    binary.unshift((Math.floor(deger / 2)));//son bölüm başa eklenir(en başa)
   }
-  if((Math.floor(deger/2))==0){
+  if((deger==0)){//0'ın 2'lik sistemdeki değeri 0'dır.if(deger/2==0) da diyebilirdim. 0/2 = 0;
     binary.unshift((Math.floor(deger)))
   }
   
-  if(sayi<0){
+  if(sayi<0){ // negatif sayının binary degeri normal degerinin negatif halidir. O yüzden yukarıda mutlak degeri üzerinden işlem yaptığım sayı eğer negatif ise başına - işareti ekledim.
     binary.unshift("-")
   }
 
