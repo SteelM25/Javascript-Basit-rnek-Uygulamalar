@@ -36,3 +36,34 @@ for(i in sayi){
     }
 }
 
+//--------------
+
+//* 2. Yöntem
+
+
+/*
+  !Örnek: 1001 = 9
+    
+  ? 1001 içinde sağdan sola doğru dolaşalım. 2° dan başlayarak üsler artacak şekilde başa kadar ilerlesin ve her sonuç karşılık geldiği değerle çarpılsın ve hepsi toplansın. (Sağdan sola gidilecek UNUTMA)
+
+  * yani: 2**0 x 1 + 2**1 x 0 + 2**2 x 0 + 2**3 x 1 = 9  
+  
+
+*/
+// function decimaltoBinary(binary){
+
+//     let toplam = 0;
+    
+//     let us  = 0;
+
+
+//     for(let i = binary.length - 1; i >= 0; i--){
+//         toplam+= Number(binary.charAt(i)) * Math.pow(2,us);
+//         us++;
+//     }
+//     alert(`${binary} değerinin Decimal karşılığı: ${toplam}`)
+// }
+
+// let binary = prompt("Decimal değeri bulunacak Binary sayısını giriniz: ")
+
+// decimaltoBinary(binary)
