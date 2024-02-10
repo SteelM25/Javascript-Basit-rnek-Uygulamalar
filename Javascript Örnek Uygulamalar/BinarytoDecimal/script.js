@@ -15,7 +15,7 @@ let sayi = prompt("Decimal değeri bulunacak Binary sayısını giriniz: ")
 let sonuc = 0;
 
 for(i in sayi){
-    if(sayi[i] == "1" || sayi[i] == "0" || sayi<0 && sayi!=""){
+    if(sayi[i] == "1" || sayi[i] == "0" || sayi<0 && sayi!=""){ //Girilen değerin binary olması için bazı şartlar
 
         if(sayi[i] == "1"){
             sonuc=(sonuc*2)+1;
@@ -23,7 +23,7 @@ for(i in sayi){
         else if(sayi[i]=="0"){
             sonuc= sonuc*2;
         }
-        if(i==(sayi.length-1)){
+        if(i==(sayi.length-1)){ //yani i son değerdeyse artık son işlemleri yapıyoruz.
             if(sayi[0]=="-"){
                 sonuc = ("-"+sonuc)
             }
@@ -32,7 +32,7 @@ for(i in sayi){
     }
       
     else{
-        alert("Lütfen 0 ve 1 içeren bir değer giriniz");
+        alert("Lütfen sadece 0 ve 1 rakamlarını içeren bir değer giriniz");
     }
 }
 
