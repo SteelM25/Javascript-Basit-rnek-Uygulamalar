@@ -36,9 +36,13 @@ function decimaltoBinary(sayi) {
     binary.unshift((Math.floor(deger / 2)));//son bölüm başa eklenir(en başa)
   }
   if((deger==0)){//0'ın 2'lik sistemdeki değeri 0'dır.if(deger/2==0) da diyebilirdim. 0/2 = 0;
-    binary.unshift((Math.floor(deger)))
+    binary.unshift((deger))
   }
   
+  if(deger==1){ // 1 sayısının binary degeri de 1'dir.
+    binary.unshift(1)
+  }
+
   if(sayi<0){ // negatif sayının binary degeri normal degerinin negatif halidir. O yüzden yukarıda mutlak degeri üzerinden işlem yaptığım sayı eğer negatif ise başına - işareti ekledim.
     binary.unshift("-")
   }
