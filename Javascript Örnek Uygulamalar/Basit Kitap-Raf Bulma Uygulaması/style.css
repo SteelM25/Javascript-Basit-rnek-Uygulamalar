@@ -21,10 +21,14 @@ body{
     transform: translate(-50%, -50%);
 }
 .book{
-    width: 75px;
-    height: 95px;
+    width: 85px;
+    height: 100px;
     border: 2px inset white;
     border-radius: 10px;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
 }
 .raf{
     display: flex;
