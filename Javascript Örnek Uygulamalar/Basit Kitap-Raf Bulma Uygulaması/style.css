@@ -1,0 +1,95 @@
+*{
+    margin : 0;
+    padding : 0;
+    overflow: hidden;
+
+}
+
+body{
+    background-color: rgb(1, 14, 26);
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    border: 2px inset white;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.book{
+    width: 75px;
+    height: 95px;
+    border: 2px inset white;
+    border-radius: 10px;
+}
+.raf{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.aramaBolum{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0 2px;
+    height: 30px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+button{
+    width: 50px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(33, 111, 184);
+    color: white;
+}
+
+#kitaplar{
+    background-color:rgb(33, 111, 184);
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    left: 50px;
+    top: 80px;
+}
+h3{
+    text-align: center;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 11px 1px rgb(9, 69, 126);
+
+}
+.kitapAdi{
+    margin: 5px 20px;
+    font-size: 14px;
+}
+
+span{
+    color: white;
+}
+.bulunanKitap{
+    background-color: rgb(251, 255, 0);
+}
+hr{
+    border: dashed 1px white;
+}
